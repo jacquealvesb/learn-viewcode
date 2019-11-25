@@ -12,6 +12,7 @@
 		1771B7C7238C979F00C530BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771B7C6238C979F00C530BF /* ViewController.swift */; };
 		1771B7CC238C97A100C530BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1771B7CB238C97A100C530BF /* Assets.xcassets */; };
 		1771B7CF238C97A100C530BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1771B7CD238C97A100C530BF /* LaunchScreen.storyboard */; };
+		1771B7D7238C9A7A00C530BF /* ViewControllerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771B7D6238C9A7A00C530BF /* ViewControllerScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1771B7CB238C97A100C530BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1771B7CE238C97A100C530BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1771B7D0238C97A100C530BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1771B7D6238C9A7A00C530BF /* ViewControllerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				1771B7C2238C979F00C530BF /* AppDelegate.swift */,
 				1771B7C4238C979F00C530BF /* SceneDelegate.swift */,
 				1771B7C6238C979F00C530BF /* ViewController.swift */,
+				1771B7D6238C9A7A00C530BF /* ViewControllerScreen.swift */,
 				1771B7CB238C97A100C530BF /* Assets.xcassets */,
 				1771B7CD238C97A100C530BF /* LaunchScreen.storyboard */,
 				1771B7D0238C97A100C530BF /* Info.plist */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1771B7D7238C9A7A00C530BF /* ViewControllerScreen.swift in Sources */,
 				1771B7C7238C979F00C530BF /* ViewController.swift in Sources */,
 				1771B7C3238C979F00C530BF /* AppDelegate.swift in Sources */,
 				1771B7C5238C979F00C530BF /* SceneDelegate.swift in Sources */,
