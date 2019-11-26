@@ -1,5 +1,5 @@
 //
-//  ViewControllerScreenSpec.swift
+//  TopGridViewSpec.swift
 //  learn-viewcodeTests
 //
 //  Created by Jacqueline Alves on 26/11/19.
@@ -12,14 +12,14 @@ import Nimble_Snapshots
 
 @testable import learn_viewcode
 
-class ViewControllerScreenSpec: QuickSpec {
+class TopGridViewSpec: QuickSpec {
     override func spec() {
         describe("the 'UI' ") {
             it("should have the expected look and feel") {
-                let frame = UIScreen.main.bounds
-                let view = ViewControllerScreen(frame: frame)
+                let frame = CGRect(x: 0, y: 0, width: 250, height: 100)
+                let view = TopGridView(frame: frame)
                 
-                expect(view) == snapshot("ViewControllerScreen")
+                expect(view) == snapshot("TopGridView")
             }
         }
     }

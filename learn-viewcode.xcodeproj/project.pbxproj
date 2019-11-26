@@ -24,6 +24,8 @@
 		179702B0238D47E40098A8CE /* GridBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179702AF238D47E40098A8CE /* GridBoxView.swift */; };
 		179702B2238D48AA0098A8CE /* GridBoxViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179702B1238D48AA0098A8CE /* GridBoxViewSpec.swift */; };
 		179702B5238D4BFF0098A8CE /* ViewControllerScreenSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179702B4238D4BFF0098A8CE /* ViewControllerScreenSpec.swift */; };
+		179702B7238D4E970098A8CE /* TopGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179702B6238D4E970098A8CE /* TopGridView.swift */; };
+		179702B9238D51630098A8CE /* TopGridViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179702B8238D51630098A8CE /* TopGridViewSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		179702AF238D47E40098A8CE /* GridBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxView.swift; sourceTree = "<group>"; };
 		179702B1238D48AA0098A8CE /* GridBoxViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxViewSpec.swift; sourceTree = "<group>"; };
 		179702B4238D4BFF0098A8CE /* ViewControllerScreenSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScreenSpec.swift; sourceTree = "<group>"; };
+		179702B6238D4E970098A8CE /* TopGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGridView.swift; sourceTree = "<group>"; };
+		179702B8238D51630098A8CE /* TopGridViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGridViewSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 				1771B7D6238C9A7A00C530BF /* ViewControllerScreen.swift */,
 				1771B7D8238CA07D00C530BF /* CodeView.swift */,
 				179702AF238D47E40098A8CE /* GridBoxView.swift */,
+				179702B6238D4E970098A8CE /* TopGridView.swift */,
 				1771B7CB238C97A100C530BF /* Assets.xcassets */,
 				1771B7CD238C97A100C530BF /* LaunchScreen.storyboard */,
 				1771B7D0238C97A100C530BF /* Info.plist */,
@@ -148,6 +153,7 @@
 			children = (
 				179702A2238D46B00098A8CE /* learn_viewcodeTests.swift */,
 				179702B1238D48AA0098A8CE /* GridBoxViewSpec.swift */,
+				179702B8238D51630098A8CE /* TopGridViewSpec.swift */,
 				179702B4238D4BFF0098A8CE /* ViewControllerScreenSpec.swift */,
 				179702A4238D46B00098A8CE /* Info.plist */,
 			);
@@ -302,6 +308,7 @@
 			files = (
 				179702B0238D47E40098A8CE /* GridBoxView.swift in Sources */,
 				1771B7D7238C9A7A00C530BF /* ViewControllerScreen.swift in Sources */,
+				179702B7238D4E970098A8CE /* TopGridView.swift in Sources */,
 				1771B7C7238C979F00C530BF /* ViewController.swift in Sources */,
 				1771B7C3238C979F00C530BF /* AppDelegate.swift in Sources */,
 				1771B7D9238CA07D00C530BF /* CodeView.swift in Sources */,
@@ -316,6 +323,7 @@
 				179702A3238D46B00098A8CE /* learn_viewcodeTests.swift in Sources */,
 				179702B5238D4BFF0098A8CE /* ViewControllerScreenSpec.swift in Sources */,
 				179702B2238D48AA0098A8CE /* GridBoxViewSpec.swift in Sources */,
+				179702B9238D51630098A8CE /* TopGridViewSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
