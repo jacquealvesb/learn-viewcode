@@ -23,6 +23,7 @@
 		179702AE238D47A20098A8CE /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17970290238D45710098A8CE /* Quick.framework */; };
 		179702B0238D47E40098A8CE /* GridBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179702AF238D47E40098A8CE /* GridBoxView.swift */; };
 		179702B2238D48AA0098A8CE /* GridBoxViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179702B1238D48AA0098A8CE /* GridBoxViewSpec.swift */; };
+		179702B5238D4BFF0098A8CE /* ViewControllerScreenSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179702B4238D4BFF0098A8CE /* ViewControllerScreenSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		179702A4238D46B00098A8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		179702AF238D47E40098A8CE /* GridBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxView.swift; sourceTree = "<group>"; };
 		179702B1238D48AA0098A8CE /* GridBoxViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxViewSpec.swift; sourceTree = "<group>"; };
+		179702B4238D4BFF0098A8CE /* ViewControllerScreenSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScreenSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				179702A2238D46B00098A8CE /* learn_viewcodeTests.swift */,
 				179702B1238D48AA0098A8CE /* GridBoxViewSpec.swift */,
+				179702B4238D4BFF0098A8CE /* ViewControllerScreenSpec.swift */,
 				179702A4238D46B00098A8CE /* Info.plist */,
 			);
 			path = "learn-viewcodeTests";
@@ -311,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				179702A3238D46B00098A8CE /* learn_viewcodeTests.swift in Sources */,
+				179702B5238D4BFF0098A8CE /* ViewControllerScreenSpec.swift in Sources */,
 				179702B2238D48AA0098A8CE /* GridBoxViewSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
