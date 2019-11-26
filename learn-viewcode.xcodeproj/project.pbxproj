@@ -16,7 +16,24 @@
 		1771B7D9238CA07D00C530BF /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771B7D8238CA07D00C530BF /* CodeView.swift */; };
 		1771B7DC238CA60700C530BF /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1771B7DB238CA60700C530BF /* SnapKit.framework */; };
 		1771B7DD238CA60700C530BF /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1771B7DB238CA60700C530BF /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		179702A3238D46B00098A8CE /* learn_viewcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179702A2238D46B00098A8CE /* learn_viewcodeTests.swift */; };
+		179702AB238D47A20098A8CE /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1797028F238D45710098A8CE /* FBSnapshotTestCase.framework */; };
+		179702AC238D47A20098A8CE /* Nimble_Snapshots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1797028E238D45710098A8CE /* Nimble_Snapshots.framework */; };
+		179702AD238D47A20098A8CE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17970291238D45720098A8CE /* Nimble.framework */; };
+		179702AE238D47A20098A8CE /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17970290238D45710098A8CE /* Quick.framework */; };
+		179702B0238D47E40098A8CE /* GridBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179702AF238D47E40098A8CE /* GridBoxView.swift */; };
+		179702B2238D48AA0098A8CE /* GridBoxViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179702B1238D48AA0098A8CE /* GridBoxViewSpec.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		179702A5238D46B00098A8CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1771B7B7238C979F00C530BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1771B7BE238C979F00C530BF;
+			remoteInfo = "learn-viewcode";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1771B7DE238CA60700C530BF /* Embed Frameworks */ = {
@@ -43,6 +60,15 @@
 		1771B7D6238C9A7A00C530BF /* ViewControllerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScreen.swift; sourceTree = "<group>"; };
 		1771B7D8238CA07D00C530BF /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 		1771B7DB238CA60700C530BF /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		1797028E238D45710098A8CE /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble_Snapshots.framework; path = Carthage/Build/iOS/Nimble_Snapshots.framework; sourceTree = "<group>"; };
+		1797028F238D45710098A8CE /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
+		17970290238D45710098A8CE /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		17970291238D45720098A8CE /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		179702A0238D46B00098A8CE /* learn-viewcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learn-viewcodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		179702A2238D46B00098A8CE /* learn_viewcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_viewcodeTests.swift; sourceTree = "<group>"; };
+		179702A4238D46B00098A8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179702AF238D47E40098A8CE /* GridBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxView.swift; sourceTree = "<group>"; };
+		179702B1238D48AA0098A8CE /* GridBoxViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxViewSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1797029D238D46B00098A8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179702AE238D47A20098A8CE /* Quick.framework in Frameworks */,
+				179702AD238D47A20098A8CE /* Nimble.framework in Frameworks */,
+				179702AB238D47A20098A8CE /* FBSnapshotTestCase.framework in Frameworks */,
+				179702AC238D47A20098A8CE /* Nimble_Snapshots.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				1771B7C1238C979F00C530BF /* learn-viewcode */,
+				179702A1238D46B00098A8CE /* learn-viewcodeTests */,
 				1771B7C0238C979F00C530BF /* Products */,
 				1771B7DA238CA60700C530BF /* Frameworks */,
 			);
@@ -70,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				1771B7BF238C979F00C530BF /* learn-viewcode.app */,
+				179702A0238D46B00098A8CE /* learn-viewcodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +121,7 @@
 				1771B7C6238C979F00C530BF /* ViewController.swift */,
 				1771B7D6238C9A7A00C530BF /* ViewControllerScreen.swift */,
 				1771B7D8238CA07D00C530BF /* CodeView.swift */,
+				179702AF238D47E40098A8CE /* GridBoxView.swift */,
 				1771B7CB238C97A100C530BF /* Assets.xcassets */,
 				1771B7CD238C97A100C530BF /* LaunchScreen.storyboard */,
 				1771B7D0238C97A100C530BF /* Info.plist */,
@@ -92,9 +132,23 @@
 		1771B7DA238CA60700C530BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1797028F238D45710098A8CE /* FBSnapshotTestCase.framework */,
+				1797028E238D45710098A8CE /* Nimble_Snapshots.framework */,
+				17970291238D45720098A8CE /* Nimble.framework */,
+				17970290238D45710098A8CE /* Quick.framework */,
 				1771B7DB238CA60700C530BF /* SnapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		179702A1238D46B00098A8CE /* learn-viewcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				179702A2238D46B00098A8CE /* learn_viewcodeTests.swift */,
+				179702B1238D48AA0098A8CE /* GridBoxViewSpec.swift */,
+				179702A4238D46B00098A8CE /* Info.plist */,
+			);
+			path = "learn-viewcodeTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +173,25 @@
 			productReference = 1771B7BF238C979F00C530BF /* learn-viewcode.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1797029F238D46B00098A8CE /* learn-viewcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179702A7238D46B00098A8CE /* Build configuration list for PBXNativeTarget "learn-viewcodeTests" */;
+			buildPhases = (
+				1797029C238D46B00098A8CE /* Sources */,
+				1797029D238D46B00098A8CE /* Frameworks */,
+				1797029E238D46B00098A8CE /* Resources */,
+				179702AA238D46CA0098A8CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179702A6238D46B00098A8CE /* PBXTargetDependency */,
+			);
+			name = "learn-viewcodeTests";
+			productName = "learn-viewcodeTests";
+			productReference = 179702A0238D46B00098A8CE /* learn-viewcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -131,6 +204,10 @@
 				TargetAttributes = {
 					1771B7BE238C979F00C530BF = {
 						CreatedOnToolsVersion = 11.2.1;
+					};
+					1797029F238D46B00098A8CE = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 1771B7BE238C979F00C530BF;
 					};
 				};
 			};
@@ -148,6 +225,7 @@
 			projectRoot = "";
 			targets = (
 				1771B7BE238C979F00C530BF /* learn-viewcode */,
+				1797029F238D46B00098A8CE /* learn-viewcodeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +237,13 @@
 			files = (
 				1771B7CF238C97A100C530BF /* LaunchScreen.storyboard in Resources */,
 				1771B7CC238C97A100C530BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1797029E238D46B00098A8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +268,28 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
+		179702AA238D46CA0098A8CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble_Snapshots.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FBSnapshotTestCase.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -190,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179702B0238D47E40098A8CE /* GridBoxView.swift in Sources */,
 				1771B7D7238C9A7A00C530BF /* ViewControllerScreen.swift in Sources */,
 				1771B7C7238C979F00C530BF /* ViewController.swift in Sources */,
 				1771B7C3238C979F00C530BF /* AppDelegate.swift in Sources */,
@@ -198,7 +306,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1797029C238D46B00098A8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179702A3238D46B00098A8CE /* learn_viewcodeTests.swift in Sources */,
+				179702B2238D48AA0098A8CE /* GridBoxViewSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		179702A6238D46B00098A8CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1771B7BE238C979F00C530BF /* learn-viewcode */;
+			targetProxy = 179702A5238D46B00098A8CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1771B7CD238C97A100C530BF /* LaunchScreen.storyboard */ = {
@@ -372,6 +497,54 @@
 			};
 			name = Release;
 		};
+		179702A8238D46B00098A8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9554U789HP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "learn-viewcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jacquelinealves.learn-viewcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learn-viewcode.app/learn-viewcode";
+			};
+			name = Debug;
+		};
+		179702A9238D46B00098A8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9554U789HP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "learn-viewcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jacquelinealves.learn-viewcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learn-viewcode.app/learn-viewcode";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -389,6 +562,15 @@
 			buildConfigurations = (
 				1771B7D4238C97A100C530BF /* Debug */,
 				1771B7D5238C97A100C530BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179702A7238D46B00098A8CE /* Build configuration list for PBXNativeTarget "learn-viewcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179702A8238D46B00098A8CE /* Debug */,
+				179702A9238D46B00098A8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
