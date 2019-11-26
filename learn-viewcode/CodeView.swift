@@ -6,6 +6,8 @@
 //  Copyright © 2019 jacquelinealves. All rights reserved.
 //
 
+import SnapKit
+
 protocol CodeView {
     func buildViewHierarchy()
     func setupConstraints()
